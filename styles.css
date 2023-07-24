@@ -5,9 +5,15 @@
 }
   
 body {
-    height: 100vh;
+    height: 100%;
+    width: 100%;
     display: flex;
-    background-image: url("./blue.jpg") no-repeat;
+    background-image: linear-gradient(to bottom right, blue, pink);
+    
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
   
 .memory-game {

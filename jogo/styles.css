@@ -59,3 +59,8 @@ body {
 .front-face {
     transform: rotateY(180deg);
 }
+
+.voltar-sair{
+    width: 30px;
+    height: 30px;
+}

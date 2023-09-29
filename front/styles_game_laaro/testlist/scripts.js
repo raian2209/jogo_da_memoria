@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const nameElement = document.createElement("h3");
       const descElement = document.createElement("p");
   
-      image.src = "images/" + person.image;
+      image.src = "./images/" + person.image;
       image.alt = person.name;
       nameElement.textContent = person.name;
       descElement.textContent = person.description;

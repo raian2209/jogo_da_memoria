@@ -1,34 +1,42 @@
-/* styles.css */
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
-  }
-  
-  .container {
-    max-width: 800px;
-    margin: 20px auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  h1 {
-    text-align: center;
-  }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  li {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-  }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+}
+
+.people-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px;
+}
+
+.person {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+.person h2 {
+  margin-top: 0;
+}
+
+.person p {
+  margin-bottom: 0;
+}
+
+
   
   img {
     width: 150px;
@@ -37,15 +45,5 @@ body {
     margin-right: 20px;
   }
   
-  .description {
-    flex: 1;
-  }
-  
-  .description h3 {
-    margin: 0;
-  }
-  
-  .description p {
-    margin: 5px 0;
-  }
+ 
   

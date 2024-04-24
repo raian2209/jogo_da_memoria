@@ -8,7 +8,7 @@ body {
     height: 100%;
     
     display: flex;
-    background-image: image("./blue.jpg");
+    background-image: url('rename.jpg');
     
 
     background-size: cover;

@@ -45,5 +45,10 @@ header {
     margin-right: 20px;
   }
   
- 
+  .voltar-sair{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    margin:auto;
+  }
   

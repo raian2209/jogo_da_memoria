@@ -8,7 +8,7 @@ body {
   height: 100%;
 
 
-  background-image: url("rename.jpg");
+  background-image: url("rename2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -32,6 +32,7 @@ body {
   flex-wrap: wrap;
   perspective: 1000px;
   justify-content: center;
+  align-items: space-around;
 }
 
 
@@ -101,26 +102,28 @@ body {
   margin: auto;
   display: flex;
   justify-content: center;
+  width: 700px;
 }
 
-button {
+.but1 {
+  letter-spacing: 3px;
 	position: relative;
     color: rgba(255,255,255,1);
     text-decoration: none;
     background-color: rgba(219,87,5,1);
     font-family: 'Yanone Kaffeesatz';
-    font-weight: 400;
-    font-size: 3em;
+    font-weight: 200;
+    font-size: 22px;
     display: block;
 
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     border-radius: 8px;
-    -webkit-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
-    -moz-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
-    box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
-    margin: 20px auto;
-	width: 160px;
+    -webkit-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 20px rgba(0,0,0,.5);
+    -moz-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 9px 10px rgba(219,31,5,1), 0px 9px 20px rgba(0,0,0,.5);
+    margin: 10px auto;
+	width: 100px;
 	text-align: center;
 	
 	-webkit-transition: all .1s ease;
@@ -130,7 +133,7 @@ button {
 	transition: all .1s ease;
 }
 
-button:active {
+.but1:active {
     -webkit-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
     -moz-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
     box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
@@ -138,24 +141,25 @@ button:active {
     top: 6px;
 }
 
-#embaralhar {
+.but1e {
+  letter-spacing: 3px;
 	position: relative;
     color: rgba(255,255,255,1);
     text-decoration: none;
     background-color: rgba(219,87,5,1);
     font-family: 'Yanone Kaffeesatz';
-    font-weight: 400;
-    font-size: 3em;
+    font-weight: 200;
+    font-size: 22px;
     display: block;
 
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     border-radius: 8px;
-    -webkit-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
-    -moz-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
-    box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
-    margin: 20px auto;
-	width: 250px;
+    -webkit-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 20px rgba(0,0,0,.5);
+    -moz-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 20px rgba(0,0,0,.5);
+    box-shadow: 0px 9px 10px rgba(219,31,5,1), 0px 9px 20px rgba(0,0,0,.5);
+    margin: 10px auto;
+	width: 150px;
 	text-align: center;
 	
 	-webkit-transition: all .1s ease;
@@ -165,7 +169,7 @@ button:active {
 	transition: all .1s ease;
 }
 
-#embaralhar:active {
+.but1e:active {
     -webkit-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
     -moz-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
     box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);

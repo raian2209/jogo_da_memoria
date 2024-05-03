@@ -1,5 +1,8 @@
 const selectElement1 = document.getElementById("mySelect1");
 
+document.getElementsByClassName("contador").innerHTML = 0
+cont = 0
+
 document.getElementById('button').addEventListener('click', d)
 document.getElementById('embaralhar').addEventListener('click', d)
 document.getElementById('config').addEventListener('click', declarconfig)
@@ -20,13 +23,14 @@ function d (){ fetch("./teste.txt")
 
     numerodecartasselecionadas = Number(pardecartas)*2
     data = data.slice(0,numerodecartasselecionadas)
-  
+    cont = 0
+    document.getElementById('contador').innerHTML = 0
     document.getElementById('output').innerHTML = data.join('')
     var m = document.querySelectorAll('.memory-card1');
     let hasFlippedCard = false;
     let lockBoard = false;
     let firstCard, secondCard;
-    console.log(m)
+    // console.log(m)
     const z = enbaralhar(m)
     z.forEach(card => card.addEventListener('click', flipCard));
 })}
@@ -55,8 +59,20 @@ function flipCard() {
   checkForMatch();
 }
 
+
+function contmov() {
+  console.log(document.getElementsByClassName("contador").innerHTML)
+ 
+  cont = cont + 1 
+  console.log(cont)
+  document.getElementById('contador').innerHTML = cont
+}
+
+
 function checkForMatch() {
   let isMatch = firstCard.dataset.framework === secondCard.dataset.framework;
+  
+  contmov()
 
   isMatch ? disableCards() : unflipCards();
 }
@@ -64,6 +80,20 @@ function checkForMatch() {
 function disableCards() {
   firstCard.removeEventListener('click', flipCard);
   secondCard.removeEventListener('click', flipCard);
+  
+  // console.log(firstCard)
+  // if (firstCard.classList.contains("frente")) {
+  //   console.log(firstCard.childNodes[0])
+  //   firstCard.childNodes[0].setAttribute('src', './img/Robert_Oppenheimer.jpg');
+  //   // do something here if the class exists
+  // }
+
+  // if (secondCard.classList.contains("frente")) {
+  //   console.log(firstCard.childNodes[0])
+  //   firstCard.childNodes[0].setAttribute('src', './img/Robert_Oppenheimer.jpg');
+
+  //   // do something here if the class exists
+  // }
 
   resetBoard();
 }

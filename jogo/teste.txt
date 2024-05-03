@@ -1,5 +1,5 @@
 <div class="memory-card1" data-framework="aurelia"><img class="front-face" src="./img/fisicos-carta-verso/ainstain.png" alt="Aurelia" /><img class="back-face" src="./img/01ef7d26-c46e-4538-9ba5-0d61108a867a.jpeg" alt="JS Badge" /></div>
-<div class="memory-card1" data-framework="aurelia"><img class="front-face" src="img/img_ains.jpeg" alt="Aurelia" /><img class="back-face" src="./img/01ef7d26-c46e-4538-9ba5-0d61108a867a.jpeg" alt="JS Badge" /></div>
+<div class="memory-card1 frente" data-framework="aurelia"><img class="front-face" src="img/img_ains.jpeg" alt="Aurelia" /><img class="back-face" src="./img/01ef7d26-c46e-4538-9ba5-0d61108a867a.jpeg" alt="JS Badge" /></div>
 <div class="memory-card1" data-framework="vue"><img class="front-face" src="./img/fisicos-carta-verso/newton.png" alt="Vue" /><img class="back-face" src="./img/01ef7d26-c46e-4538-9ba5-0d61108a867a.jpeg" alt="JS Badge" /></div>
 <div class="memory-card1" data-framework="vue"><img class="front-face" src="./img/IsaacNewton.jpg" alt="Vue" /><img class="back-face" src="./img/01ef7d26-c46e-4538-9ba5-0d61108a867a.jpeg" alt="JS Badge" /></div>
 <div class="memory-card1" data-framework="angular"><img class="front-face" src="./img/fisicos-carta-verso/oppenhimer.png" alt="Angular" /><img class="back-face" src="./img/01ef7d26-c46e-4538-9ba5-0d61108a867a.jpeg" alt="JS Badge" /></div>

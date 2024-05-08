@@ -33,6 +33,7 @@ function d (){ fetch("./teste.txt")
     // console.log(m)
     const z = enbaralhar(m)
     z.forEach(card => card.addEventListener('click', flipCard));
+    document.body.style.backgroundSize = "cover";
 })}
 
 const cards = document.querySelectorAll('.memory-card');
@@ -61,10 +62,8 @@ function flipCard() {
 
 
 function contmov() {
-  console.log(document.getElementsByClassName("contador").innerHTML)
- 
+  console.log(document.getElementsByClassName("contador").innerHTML) 
   cont = cont + 1 
-  console.log(cont)
   document.getElementById('contador').innerHTML = cont
 }
 
@@ -80,8 +79,33 @@ function checkForMatch() {
 function disableCards() {
   firstCard.removeEventListener('click', flipCard);
   secondCard.removeEventListener('click', flipCard);
+
+  console.log(firstCard.childNodes)
+  console.log(secondCard.childNodes)
+
+console.log(firstCard.alt, secondCard.alt, firstCard,secondCard);
+if (firstCard.classList.contains("marcado")) {
+  const letra = firstCard.childNodes[0].alt
+  console.log(letra)
+
+firstCard.childNodes[0].src = `./img/teste-revelado/costarevelado${letra}.jpeg`;
+  // do something here if the class exists
+}
+
+if (secondCard.classList.contains("marcado")) {
+   const letra = secondCard.childNodes[0].alt
+  console.log(letra)
+   secondCard.childNodes[0].src = `./img/teste-revelado/costarevelado${letra}.jpeg`;
   
-  // console.log(firstCard)
+  // secondCard.setAttribute('src', './img/Robert_Oppenheimer.jpg');
+
+  // do something here if the class exists
+}
+
+
+
+
+// gerado por jogo original 
   // if (firstCard.classList.contains("frente")) {
   //   console.log(firstCard.childNodes[0])
   //   firstCard.childNodes[0].setAttribute('src', './img/Robert_Oppenheimer.jpg');

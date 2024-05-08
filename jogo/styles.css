@@ -26,6 +26,7 @@ body {
 
 .memory-game1 {
   width: 940px;
+  
   height: 640px;
   margin: auto;
   display: flex;
@@ -75,6 +76,22 @@ body {
 .memory-card1.flip {
   transform: rotateY(180deg);
 }
+
+/* #teste{ */
+  /* width: 100%;
+  height: 50%;
+  /* padding: 20px; */
+  /* position: absolute;
+  border-radius: 5px;
+  background: #1c7ccc;
+  backface-visibility: hidden; */ 
+/* } */
+/* #teste1{ */
+  /* width: 100%;
+  height: 100%;
+  padding-top: 50%;  */
+
+/* } */
 
 .front-face,
 .back-face {

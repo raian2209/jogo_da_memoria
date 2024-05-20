@@ -12,6 +12,8 @@
 <div class="memory-card1 marcado" data-framework="backbone"><img class="front-face" src="img/teste-revelado/costacurie.jpeg" alt="curie" /><img class="back-face" src="./img/verso.jpeg" alt="planck" /></div>
 <div class="memory-card1" data-framework="backbone"><img class="front-face" src="img/teste-revelado/frentegalileu.jpeg" alt="galileu" /><img class="back-face" src="./img/verso.jpeg" alt="planck" /></div>
 <div class="memory-card1 marcado" data-framework="backbone"><img class="front-face" src="img/teste-revelado/costagalileu.jpeg" alt="galileu" /><img class="back-face" src="./img/verso.jpeg" alt="planck" /></div>
+<div class="memory-card1" data-framework="backbone"><img class="front-face" src="img/teste-revelado/frenteborn.jpeg" alt="born" /><img class="back-face" src="./img/verso.jpeg" alt="born" /></div>
+<div class="memory-card1 marcado" data-framework="backbone"><img class="front-face" src="img/teste-revelado/costaborn.jpeg" alt="born" /><img class="back-face" src="./img/verso.jpeg" alt="born" /></div>
 <div class="memory-card1" data-framework="angular"><img class="front-face" src="./img/fisicos-carta-verso/oppenhimer.png" alt="Angular" /><img class="back-face" src="./img/01ef7d26-c46e-4538-9ba5-0d61108a867a.jpeg" alt="JS Badge" /></div>
 <div class="memory-card1" data-framework="angular"><img class="front-face" src="./img/Robert_Oppenheimer.jpg" alt="Angular" /><img class="back-face" src="./img/01ef7d26-c46e-4538-9ba5-0d61108a867a.jpeg" alt="JS Badge" /></div>
 <div class="memory-card1" data-framework="ember"><img class="front-face" src="./img/fisicos-carta-verso/hawking.png" alt="Ember" /><img class="back-face" src="./img/01ef7d26-c46e-4538-9ba5-0d61108a867a.jpeg" alt="JS Badge" /></div>

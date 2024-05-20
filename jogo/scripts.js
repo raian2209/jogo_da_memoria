@@ -8,7 +8,10 @@ document.getElementById('embaralhar').addEventListener('click', d)
 document.getElementById('config').addEventListener('click', declarconfig)
 
 function declarconfig() {
-  pardecartas = prompt('quantos pares de cartas');
+  pardecartas = prompt('quantidade de pares (2 até 28)');
+  while (Number(pardecartas)<2 || Number(pardecartas)>28){
+    pardecartas = prompt('so aceitamos numeros entre 2 é 28')
+  }
 }
 
 function d (){ fetch("./teste.txt")

@@ -26,8 +26,11 @@ function d (){ fetch("./teste.txt")
 
     numerodecartasselecionadas = Number(pardecartas)*2
     data = data.slice(0,numerodecartasselecionadas)
+    console.log(data)
     cont = 0
     document.getElementById('contador').innerHTML = 0
+    data = breaker(4,data)
+    console.log(data)
     document.getElementById('output').innerHTML = data.join('')
     var m = document.querySelectorAll('.memory-card1');
     let hasFlippedCard = false;
@@ -37,7 +40,24 @@ function d (){ fetch("./teste.txt")
     const z = enbaralhar(m)
     z.forEach(card => card.addEventListener('click', flipCard));
     document.body.style.backgroundSize = "cover";
+
 })}
+
+function breaker(n,listcards){
+  novalista = []
+  cont = 0
+  while(n*cont<listcards.length){
+    if(novalista.length){
+    novalista.push(listcards.slice(0,n),"<br>")
+    }else{
+    novalista.push("<br>",listcards.slice(n*cont,n*(cont+1)))
+    }
+    cont+=1
+  console.log("oi")
+    console.log(novalista)
+  }
+  return novalista
+}
 
 const cards = document.querySelectorAll('.memory-card');
 

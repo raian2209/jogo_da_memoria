@@ -30,7 +30,7 @@ function d (){ fetch("./teste.txt")
 
     cont = 0
     document.getElementById('contador').innerHTML = 0
-    data = breaker(4,data)
+   // data = breaker(4,data)
     console.log(data)
   //  auxiliarrand = listaauxiliar(data.length)
   

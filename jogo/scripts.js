@@ -30,9 +30,9 @@ function d (){ fetch("./teste.txt")
 
     cont = 0
     document.getElementById('contador').innerHTML = 0
-    data = breaker(4,data)
+   // data = breaker(4,data)
     console.log(data)
-    auxiliarrand = listaauxiliar(data.length)
+  //  auxiliarrand = listaauxiliar(data.length)
   
     document.getElementById('output').innerHTML = data.join('')
     var m = document.querySelectorAll('.memory-card1');
@@ -192,11 +192,6 @@ function enbaralhar(array){
   array.forEach(card => {
     randomPos = Math.floor(Math.random() * listaauxiliar.length);
     
-    randomPos == 4 ||randomPos == 9 || randomPos == 14 || randomPos == 19 || randomPos == 24 ?  contar = 0 : card.style.order = randomPos;
-
-  while(randomPos == 4 ||randomPos == 9 || randomPos == 14 || randomPos == 19 || randomPos == 24){
-    randomPos = Math.floor(Math.random() * listaauxiliar.length);
-  }
     card.style.order = randomPos;
   
 })

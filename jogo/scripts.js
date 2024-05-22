@@ -190,7 +190,13 @@ cards.forEach(card => card.addEventListener('click', flipCard));
 
 function enbaralhar(array){ 
   array.forEach(card => {
-    let randomPos = Math.floor(Math.random() * 12);
+    randomPos = Math.floor(Math.random() * listaauxiliar.length);
+    
+    randomPos == 4 ||randomPos == 9 || randomPos == 14 || randomPos == 19 || randomPos == 24 ?  contar = 0 : card.style.order = randomPos;
+
+  while(randomPos == 4 ||randomPos == 9 || randomPos == 14 || randomPos == 19 || randomPos == 24){
+    randomPos = Math.floor(Math.random() * listaauxiliar.length);
+  }
     card.style.order = randomPos;
   
 })

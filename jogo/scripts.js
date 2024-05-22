@@ -26,36 +26,54 @@ function d (){ fetch("./teste.txt")
 
     numerodecartasselecionadas = Number(pardecartas)*2
     data = data.slice(0,numerodecartasselecionadas)
-    console.log(data)
+   
+
     cont = 0
     document.getElementById('contador').innerHTML = 0
     data = breaker(4,data)
     console.log(data)
+    auxiliarrand = listaauxiliar(data.length)
+  
     document.getElementById('output').innerHTML = data.join('')
     var m = document.querySelectorAll('.memory-card1');
     let hasFlippedCard = false;
     let lockBoard = false;
     let firstCard, secondCard;
     // console.log(m)
-    const z = enbaralhar(m)
+    var z = enbaralhar(m)
+  //   
+   
     z.forEach(card => card.addEventListener('click', flipCard));
-    document.body.style.backgroundSize = "cover";
 
 })}
+
+function listaauxiliar(n){
+  auxiliarrand = []
+  for (var i = 0; i < n; i++){
+    auxiliarrand.push(i)
+  }
+  return auxiliarrand
+}
 
 function breaker(n,listcards){
   novalista = []
   cont = 0
+
+  console.log(listcards)
+
   while(n*cont<listcards.length){
-    if(novalista.length){
-    novalista.push(listcards.slice(0,n),"<br>")
+    if(!novalista.length){
+    novalista.push(listcards.slice(0,n))
+    console.log(1)
     }else{
-    novalista.push("<br>",listcards.slice(n*cont,n*(cont+1)))
-    }
-    cont+=1
-  console.log("oi")
-    console.log(novalista)
+    novalista.push("<break></break>",listcards.slice(n*cont,n*(cont+1)))
+    console.log(2)
+    
   }
+    cont+=1
+  }
+  novalista = novalista.flat()
+  console.log(novalista)
   return novalista
 }
 
@@ -174,6 +192,7 @@ function enbaralhar(array){
   array.forEach(card => {
     let randomPos = Math.floor(Math.random() * 12);
     card.style.order = randomPos;
-  })
+  
+})
   return array; 
 }; 

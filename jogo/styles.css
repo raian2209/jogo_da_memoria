@@ -27,6 +27,8 @@ body {
 .memory-game1 {
   width: 1340px;
   height: 940px;
+  /*width: 1082px;
+  height: 940px;*/
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -37,8 +39,10 @@ body {
 
 
 .memory-card {
-  width: calc(40% - 10px);
-  height: calc(53.333% - 10px);
+ /* width: calc(40% - 10px);
+  height: calc(53.333% - 10px);*/
+  width: 258;
+  height: 303.328;
   margin: 5px;
   position: relative;
   transform: scale(1);
@@ -48,8 +52,10 @@ body {
 }
 
 .memory-card1 {
-  width: calc(20% - 10px);
-  height: calc(33.333% - 10px);
+ width: calc(25% - 10px);
+  height: calc(43.333% - 10px);
+   /*width: 258;
+  height: 303.328;*/
   margin: 5px;
   position: relative;
   transform: scale(1);

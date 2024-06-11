@@ -3,6 +3,8 @@ const selectElement1 = document.getElementById("mySelect1");
 document.getElementsByClassName("contador").innerHTML = 0
 cont = 0
 
+pardecartas = 3
+
 document.getElementById('button').addEventListener('click', d)
 document.getElementById('embaralhar').addEventListener('click', d)
 document.getElementById('config').addEventListener('click', declarconfig)

@@ -53,7 +53,7 @@ body {
 
 .memory-card1 {
   width: calc(25% - 10px);
-  height: calc(33.333% - 10px);
+  height: calc(43.333% - 10px);
   /*width: 258;
   height: 303.328;*/
   margin: 5px;
@@ -121,6 +121,7 @@ body {
 }
 
 .centralise {
+  padding-left: 100px;
   margin: auto;
   display: flex;
   justify-content: center;
@@ -130,7 +131,7 @@ body {
 .but1 {
   letter-spacing: 2.5px;
   position: relative;
-  color: rgba(255, 255, 255, 1);
+  color: rgb(0, 0, 0);
   text-decoration: none;
   background-color: rgba(219, 87, 5, 1);
   font-family: 'Yanone Kaffeesatz';
@@ -166,7 +167,7 @@ body {
 .but1e {
   letter-spacing: 3px;
   position: relative;
-  color: rgba(255, 255, 255, 1);
+  color: rgb(0, 0, 0);
   text-decoration: none;
   background-color: rgba(219, 87, 5, 1);
   font-family: 'Yanone Kaffeesatz';

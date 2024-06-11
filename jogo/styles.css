@@ -121,11 +121,11 @@ body {
 }
 
 .centralise {
-  padding-left: 300px;
+  padding-left: 500px;
   margin: auto;
   display: flex;
   justify-content: center;
-  width: 1100px;
+  width: 1340px;
 }
 
 .but1 {

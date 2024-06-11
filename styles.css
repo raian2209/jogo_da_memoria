@@ -126,11 +126,11 @@ body {
 }
 
 .centralise {
-  padding-left: 300px;
+  /* padding-left: 300px; */
   margin: auto;
   display: flex;
   justify-content: center;
-  width: 1040px;
+  width: 700px;
 }
 
 .but1 {
@@ -206,6 +206,14 @@ body {
 }
 
 @media (max-width:1000px) {
+  .centralise {
+    padding-left: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 1040px;
+  }
+  
   .memory-card1 {
     width: calc(25% - 10px);
     height: calc(43.333% - 10px);

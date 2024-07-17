@@ -234,7 +234,7 @@ body {
 
 @media (max-width:1000px) {
   .centralise {
-    padding-left: 300px;
+    padding-left: 250px;
     margin: auto;
     display: flex;
     justify-content: center;
